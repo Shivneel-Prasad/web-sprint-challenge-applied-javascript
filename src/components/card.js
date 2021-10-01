@@ -38,7 +38,7 @@ const Card = (article) => {
   newCard.appendChild(newTitle)
   newCard.appendChild(newAuthor)
   newAuthor.appendChild(pictureBox)
-  pictureBox.appendChild(authorsName)
+  newAuthor.appendChild(authorsName)
   pictureBox.appendChild(images)
 
   // adding information
