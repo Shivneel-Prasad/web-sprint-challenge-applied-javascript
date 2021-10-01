@@ -10,10 +10,10 @@ You are not allowed to collaborate during the sprint challenge.
 
 ## Project Set Up
 
-- [ ] Fork and clone the repo. Delete your old fork from Github first if you are repeating this Unit.
-- [ ] Open the assignment in Canvas and click on the "Set up git" option.
-- [ ] Push your first commit: `git commit --allow-empty -m "first commit" && git push`.
-- [ ] Check to see that Codegrade has accepted your git submission.
+- [X] Fork and clone the repo. Delete your old fork from Github first if you are repeating this Unit.
+- [X] Open the assignment in Canvas and click on the "Set up git" option.
+- [X] Push your first commit: `git commit --allow-empty -m "first commit" && git push`.
+- [X] Check to see that Codegrade has accepted your git submission.
 
 ## Project Instructions
 
@@ -27,17 +27,17 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 ### Instructions
 
-- [ ] Navigate to the root of the project with your command line.
-- [ ] Run `npm install` to download the dependencies listed in the `package.json` file.
-- [ ] Run `npm start` to compile the project and serve it.
-- [ ] Navigate Chrome to `http://localhost:3000`
-- [ ] In a separate terminal, run `npm test` to run tests.
+- [X] Navigate to the root of the project with your command line.
+- [X] Run `npm install` to download the dependencies listed in the `package.json` file.
+- [X] Run `npm start` to compile the project and serve it.
+- [X] Navigate Chrome to `http://localhost:3000`
+- [X] In a separate terminal, run `npm test` to run tests.
 
 **Steps Required for MVP:**
 
-- [ ] Steps 1 and 2 are explained inside the `src/components/header.js` file.
-- [ ] Steps 3 and 4 are explained inside the `src/components/tabs.js` file.
-- [ ] Steps 5 and 6 are explained inside the `src/components/card.js` file.
+- [X] Steps 1 and 2 are explained inside the `src/components/header.js` file.
+- [X] Steps 3 and 4 are explained inside the `src/components/tabs.js` file.
+- [X] Steps 5 and 6 are explained inside the `src/components/card.js` file.
 
 **Important Notes:**
 
@@ -60,7 +60,16 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is the DOM?
+    + Document Object Model is the data representation of the objects that comprise the structure and   content of a document on the web. basically it represents an HTML document in memory and how to use APIs to create web content and applications.
+
 2. What is an event?
+    + It is the actions or occurrences that happens within the system as it tells the program how to respond to things in some way. 
+
 3. What is an event listener?
+    + The listener listens out for the event happening, and the handler is the code that is run in response to it happening.
+
 4. Why would we convert a NodeList into an Array?
+    + In order to use the array method NodeList has to be converted.
+
 5. What is a component?
+    + Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML via a render() function.
